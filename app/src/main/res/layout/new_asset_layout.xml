@@ -30,7 +30,7 @@
 
 
             <Button
-                android:id="@+id/btn_add"
+                android:id="@+id/btn_add_sendIt"
                 android:layout_width="81dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="20dp"
@@ -61,7 +61,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/btn_back"
+                android:id="@+id/btn_back_sendIt"
                 android:layout_width="89dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="-20dp"
