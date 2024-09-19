@@ -133,9 +133,8 @@
                         android:ems="10"
                         android:hint="Title"
                         android:inputType="text"
-                        android:textColor="#A1A1A1"
+                        android:textColor="#3E3E3E"
                         android:textColorHint="#B6B6B6"
-                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
@@ -153,7 +152,7 @@
                         android:inputType="textMultiLine"
                         android:minLines="3"
                         android:paddingLeft="5dp"
-                        android:textColor="#A1A1A1"
+                        android:textColor="#3E3E3E"
                         android:textColorHint="#B6B6B6"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -169,7 +168,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/NewAsset_container"
+                android:id="@+id/Added_lists_container"
                 android:layout_width="323dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="16dp"
@@ -188,31 +187,6 @@
                     android:layout_height="match_parent">
 
 
-                    <ImageView
-                        android:id="@+id/imageView13"
-                        android:layout_width="34dp"
-                        android:layout_height="28dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bytecraft_project" />
-
-                    <TextView
-                        android:id="@+id/txt_bytecraft"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ByteCraft Project"
-                        android:textColor="#6A6A6A"
-                        android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintStart_toEndOf="@+id/imageView13"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.523" />
-
                     <ImageButton
                         android:id="@+id/ic_arrow_right"
                         android:layout_width="wrap_content"
@@ -220,8 +194,6 @@
                         android:background="@android:color/transparent"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.95"
-                        app:layout_constraintStart_toEndOf="@+id/txt_bytecraft"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/ic_arrow_right" />
 
@@ -240,7 +212,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.137"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/NewAsset_container"
+                app:layout_constraintTop_toBottomOf="@+id/Added_lists_container"
                 app:layout_constraintVertical_bias="0.647">
 
 
@@ -360,7 +332,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.674"
                 app:layout_constraintStart_toEndOf="@+id/frameLayout"
-                app:layout_constraintTop_toBottomOf="@+id/NewAsset_container"
+                app:layout_constraintTop_toBottomOf="@+id/Added_lists_container"
                 app:layout_constraintVertical_bias="0.317">
 
 
