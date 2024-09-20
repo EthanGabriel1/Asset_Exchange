@@ -5,14 +5,19 @@ import android.view.View;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.assetexchange.R;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 public class FolderView extends AppCompatActivity {
+
+    private View sheet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_folder_view);
+
+
 
         // Find the add folder button (use ImageButton instead of Button)
         ImageButton btnAddFolder = findViewById(R.id.btn_add_folder);
