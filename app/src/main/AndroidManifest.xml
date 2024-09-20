@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AssetExchange"
         tools:targetApi="31">
         <activity
+            android:name=".FolderView.Project_Overview"
+            android:exported="false" />
+        <activity
             android:name=".FolderView.FolderView"
             android:exported="true" />
         <activity

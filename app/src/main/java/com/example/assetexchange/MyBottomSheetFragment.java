@@ -25,7 +25,7 @@ public class MyBottomSheetFragment extends BottomSheetDialogFragment {
         });
 
         // Find the btn_back_sendIt in the layout
-        Button btnBackSendIt = view.findViewById(R.id.btn_back_sendIt);
+        Button btnBackSendIt = view.findViewById(R.id.btn_back_newasset);
 
         // Set click listener on the back button to close the bottom sheet
         btnBackSendIt.setOnClickListener(v -> {
