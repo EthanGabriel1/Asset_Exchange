@@ -55,12 +55,48 @@
                 android:textSize="18dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/txt_newreminder"
+                app:layout_constraintStart_toEndOf="@+id/txt_newfolder"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
 
+            <Button
+                android:id="@+id/btn_new_asset_folder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/folder_newfolder"
+                android:drawableRight="@drawable/alert_circle"
+                android:fontFamily="@font/roboto"
+                android:gravity="start"
+                android:text="New Asset Folder"
+                android:textColor="#454545"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_newfolder" />
 
+            <Button
+                android:id="@+id/btn_new_project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/star_newfolder"
+                android:drawableRight="@drawable/alert_circle"
+                android:fontFamily="@font/roboto"
+                android:gravity="start"
+                android:text="New Project"
+                android:textColor="#454545"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_new_asset_folder" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

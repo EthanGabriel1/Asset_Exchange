@@ -98,6 +98,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="20dp"
                                     android:layout_marginTop="12dp"
+
                                     android:text="ALL"
                                     android:textColor="#6A6A6A"
                                     android:textSize="30dp"
@@ -159,6 +160,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="20dp"
                                     android:layout_marginTop="12dp"
+                                    android:fontFamily="@font/roboto"
                                     android:text="Completed"
                                     android:textColor="#6A6A6A"
                                     android:textSize="30dp"
@@ -187,7 +189,7 @@
 
                 <Button
                     android:id="@+id/btnRemind"
-                    android:layout_width="140dp"
+                    android:layout_width="155dp"
                     android:layout_height="55dp"
                     android:layout_marginTop="20dp"
                     android:backgroundTint="#FF453F"
@@ -195,29 +197,25 @@
                     android:text="Remind"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="10dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/btnAddList"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/Task_Completed"
-                    app:layout_constraintVertical_bias="0.007" />
+                    app:layout_constraintTop_toBottomOf="@+id/Task_Completed" />
 
                 <Button
                     android:id="@+id/btnAddList"
-                    android:layout_width="140dp"
+                    android:layout_width="155dp"
                     android:layout_height="55dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginBottom="58dp"
                     android:backgroundTint="#FFB23A"
                     android:paddingLeft="40dp"
                     android:text="Add List"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="10dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/My_List"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/Task_Completed"
-                    app:layout_constraintVertical_bias="0.007" />
+                    app:layout_constraintTop_toBottomOf="@+id/Task_Completed" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -234,7 +232,7 @@
                     android:id="@+id/imageView3"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginStart="23dp"
+                    android:layout_marginStart="28dp"
                     android:layout_marginTop="12dp"
                     app:layout_constraintStart_toStartOf="@+id/btnAddList"
                     app:layout_constraintTop_toTopOf="@+id/btnAddList"
@@ -272,11 +270,10 @@
 
 
                         <androidx.recyclerview.widget.RecyclerView
-                                android:id="@+id/mylist_recyclerview"
+                            android:id="@+id/mylist_recyclerview"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:padding="5dp">
-
 
 
                         </androidx.recyclerview.widget.RecyclerView>
